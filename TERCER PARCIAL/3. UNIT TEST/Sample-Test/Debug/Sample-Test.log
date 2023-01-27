@@ -1,0 +1,3 @@
+﻿  test.cpp
+C:\Users\USER\source\repos\Ajedres\Deber_Ajedres\src\AtzLib\GraficaTablero.cpp(88,35): warning C4996: 'strdup': The POSIX name for this item is deprecated. Instead, use the ISO C and C++ conformant name: _strdup. See online help for details.
+  Sample-Test.vcxproj -> C:\Users\USER\source\repos\Ajedres\Deber_Ajedres\build\Debug\Sample-Test.exe
