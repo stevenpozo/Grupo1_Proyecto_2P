@@ -1,9 +1,13 @@
-/***********************************************************************
- * Module:  Solucion.h
- * Author:  steve
- * Modified: viernes, 27 de enero de 2023 8:54:02
- * Purpose: Declaration of the class Solucion
- ***********************************************************************/
+/*
+	UNIVERSIDAD DE LAS FUERZAS ARMADAS ESPE
+	INTEGRANTES:
+		- STEVEN POZO
+		- JAIRO QUILUMBAQUIN
+		- SEBASTIAN PAUCAR
+	NRC: 7999
+	FECHA DE ENTREGA: 30/01/2023
+	TEMA: UBICAR LOS ALFILES EN POSICIONES SEGURAS
+*/
 
 #if !defined(__ObjectOrientedModel_1_Solucion_h)
 #define __ObjectOrientedModel_1_Solucion_h
