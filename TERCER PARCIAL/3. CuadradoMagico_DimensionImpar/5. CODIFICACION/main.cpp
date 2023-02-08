@@ -9,9 +9,8 @@
 	TEMA: GENERAR UN CUADRADO MAGICO
 */
 
-
-
 #include <iostream>
+#include <graphics.h>
 #include "CuadradoM.cpp"
 #include "Validaciones.h"
 
@@ -19,6 +18,8 @@ using namespace std;
 
 int main(){
 	
+	int gd = DETECT, gm;
+    initgraph(&gd, &gm, "C:\\TC\\BGI");
 	Validaciones validar;
 	int valorInicial;
 	int valorDeProgresion;
@@ -34,6 +35,11 @@ int main(){
 	cuadrado->sumatoriaDiagonal();
 	cuadrado->mostrarCuadrado();
 	cuadrado->sumaTotal();
+	cuadrado->graficarNumeros();
+	cuadrado->graficarMatriz();
+    getch();
+    closegraph();
+    
 	return 0;
 	
 }
